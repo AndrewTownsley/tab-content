@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family:'Poppins', sans-serif;
+  color: #444;
+}
+
+.tabs-list {
+  display: flex;
+  list-style: none;
+}
+
+.tab {
+  padding: 1.5rem 2.5rem;
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+
+.tab:hover {
+  background: #d7f4ff;
+}
+
+.tab-content {
+  display: flex;
+
+  background: rgb(243, 243, 243);
+}
+
+.tab-content-card {
+  background: #fff;
+  margin: 3rem;
+  padding: 3rem;
+  max-width: 600px;
+}
+
+
