@@ -20,6 +20,15 @@ a {
   text-decoration: none;
 }
 
+p {
+  color: #333;
+}
+
+span {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
 .tab-container {
   margin: 4rem;
 }
@@ -114,11 +123,9 @@ a {
 
 .price-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   grid-gap: 2rem;
-  margin: 3rem;
-  justify-content: center;
-  align-items: center;
+  margin: 3rem 12rem;
 }
 
 .price-card {
@@ -128,5 +135,39 @@ a {
   padding: 3rem;
   box-shadow: 0px 0px 6px 3px rgba(0, 0, 0, 0.2);
 }
+
+.price-card-header {
+  text-align: center;
+  padding-bottom: 2rem;
+  color: #14a76c;
+}
+
+.price-card-stats {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+  padding: 0.4rem 0 0.4rem 0;
+}
+
+.price-card-text {
+  font-size: 1.2rem;
+  padding: 1rem 0 0 0;
+  color: #333;
+}
+
+.price-card-btn {
+  border: none;
+  padding: 1rem;
+  margin-top: 1rem;
+  background: #14a76c;
+  color: #fff;
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+
+.price-card-btn:hover {
+  background: #20c281;
+}
+
 
 
