@@ -206,8 +206,8 @@ i {
 .form-split-form {
   display: flex;
   flex-direction: column;
-  margin: 3rem;
-  max-width: 650px;
+  margin: 0rem 3rem 2rem 3rem;
+  max-width: 550px;
 }
 
 .contact-form h3 {
@@ -228,8 +228,31 @@ i {
   padding: 2rem 0 2rem 0;
 }
 
+.form-select-btn-center {
+  display: flex;
+  justify-content: center;
+}
 
+.select-btn {
+  border: 2px solid #ccc;
+  background: #fff;
+  padding: 1.2rem;
+  margin: 1rem;
+  width: 35%;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  color: #333;
+  cursor: pointer;
+  outline: none;
+}
 
+.select-btn:focus,
+.select-btn:active {
+  background:rgb(246, 246, 246);
+  /* border: none; */
+  border: 2px solid #14a76c;
+  color: #14a76c;
+}
 
 
 
