@@ -22,6 +22,7 @@ a {
 
 p {
   color: #333;
+  padding-bottom: 10px;
 }
 
 span {
@@ -300,4 +301,59 @@ i {
   background: #20c281;
 }
 
+/* ----------------------------------------------DOCS----------------------------------------- */
+
+.docs-container {
+  width: 100%;
+  display: inline-flex;
+  grid-template-columns: repeat (2, 1fr 3fr);
+}
+/* -------------------------docs-menu */
+.docs-menu {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 4rem 4rem 4rem;
+  background: rgb(246, 246, 246);
+  border-right: 4px solid #20c281;
+  max-width: 300px;
+}
+
+.docs-section {
+  padding-bottom: 2rem;
+}
+
+.docs-section h3 {
+  text-decoration: underline 2px solid #ccc;
+  text-underline-offset: 3px;
+}
+
+.docs-list li {
+  list-style: none;
+  padding: 3px;
+}
+
+.docs-list li a:hover {
+  color: #20c281;
+}
+
+/* ------------------------docs-content */
+
+.docs-content {
+  display: none;
+  margin: 2rem 3rem 3rem 3rem;
+  max-width: 650px;
+}
+
+.docs-content-title {
+  border-bottom: 3px solid #14a76c;
+  margin-bottom: 2rem;
+}
+
+.docs-content-list {
+  margin-left: 2rem;
+}
+
+.docs-content.active {
+  display: block;
+}
 

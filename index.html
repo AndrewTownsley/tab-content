@@ -18,8 +18,8 @@
   <ul class="tabs">
     <li data-tab-target="#features" class="tab">Features</li>
     <li data-tab-target="#pricing" class="tab">Pricing</li>
-    <li data-tab-target="#register" class="active tab">Register</li>
-    <li data-tab-target="#docs" class="tab">Docs</li>
+    <li data-tab-target="#register" class="tab">Register</li>
+    <li data-tab-target="#docs" class="active tab">Docs</li>
   </ul>
 <!-- -------------------------------------TAB-CONTENT------------------------------------ -->
 <div class="tab-content">
@@ -101,7 +101,7 @@
 
     
 <!-- -------------------------------------------REGISTER--------------------------------- \ -->
-<div class="card-content active" id="register" data-tab-content>
+<div class="card-content" id="register" data-tab-content>
   <!-- <div class="register-container"> -->
     <div class="register-form-split">
       <div class="form-split-left">
@@ -127,7 +127,7 @@
             </div>
           </div>
           <!---------- form inputs -->
-          
+
           <form action="submit" id="contact-form" class="contact-form">
             <div class="form-section">
               <label for="name">Full Name</label>
@@ -151,39 +151,99 @@
 
     <!-- --------------------------------------DOCS--------------------------------------- -->
   
-  <div class="card-content" id="docs" data-tab-content>
-    <div class="card-feature">
-      <div class="card-feature-header">
-        <h3>Industry Leading Performance</h3>
-        <i class="fas fa-upload fa-4x"></i>
+  <div class="card-content active" id="docs" data-link-content>
+    <section class="docs-container">
+    <nav class="docs-menu">
+      <div class="docs-section">
+        <h3>Getting started</h3>
+        <ul class="docs-list">
+          <li><a href="#" data-link-target="#configuration">Configuration</a></li>
+          <li><a href="#" data-link-target="#usingData">Using Data</a></li>
+          <li><a href="#" data-link-target="#templates">Templates</a></li>
+          <li><a href="#" data-link-target="#troubleshooting">Troubleshooting</a></li>
+        </ul>
       </div>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti fuga, ipsa quis numquam animi explicabo praesentium minus voluptas. Ipsa, ratione! Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro numquam voluptatibus quas.</p>
-      <a href="#">Learn More<i class="fas fa-long-arrow-alt-right"></i></a>
-  </div>
-    <div class="card-feature">
-      <div class="card-feature-header">
-        <h3>Industry Leading Performance</h3>
-        <i class="fas fa-upload fa-4x"></i>
+      <div class="docs-section">
+        <h3>Plugins</h3>
+        <ul class="docs-list">
+          <li><a href="#">Media</a></li>
+          <li><a href="#">Back-end</a></li>
+          <li><a href="#">UI Components</a></li>
+          <li><a href="#">E-commerce</a></li>
+        </ul>
       </div>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti fuga, ipsa quis numquam animi explicabo praesentium minus voluptas. Ipsa, ratione! Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro numquam voluptatibus quas.</p>
-      <a href="#">Learn More<i class="fas fa-long-arrow-alt-right"></i></a>
-  </div>
-    <div class="card-feature">
-      <div class="card-feature-header">
-        <h3>Industry Leading Performance</h3>
-        <i class="fas fa-upload fa-4x"></i>
+    </nav>
+
+
+    <!-- -------------------------------------docs-content-articles -->
+    <article class="docs-content" id="configuration" data-link-content>
+      <div class="docs-content-title">
+        <h3>Configuration</h3>
       </div>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti fuga, ipsa quis numquam animi explicabo praesentium minus voluptas. Ipsa, ratione! Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro numquam voluptatibus quas.</p>
-      <a href="#">Learn More<i class="fas fa-long-arrow-alt-right"></i></a>
-  </div>
-    <div class="card-feature">
-      <div class="card-feature-header">
-        <h3>Industry Leading Performance</h3>
-        <i class="fas fa-upload fa-4x"></i>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum quidem qui voluptatem magnam pariatur, in quis fugiat architecto earum asperiores. Illum dolorum ullam porro harum deleniti laboriosam dicta officiis, rerum magnam, tenetur, consequuntur cupiditate deserunt labore facere? Voluptate corrupti harum ipsum molestias enim officiis voluptates? Dolorem illo suscipit fugiat ipsum!</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis laudantium assumenda ratione libero veritatis nisi soluta culpa expedita, quia officia earum, reprehenderit quae quam ex?</p>
+
+      <div class="docs-content-list">
+        <h4>More Resources</h4>
+        <ul><li><a href="#">Contact Support Team</a></li></ul>
+        <ul><li><a href="#">Downloads</a></li></ul>
+        <ul><li><a href="#">Tutorial Series</a></li></ul>
+        <ul><li><a href="#">Common Issues</a></li></ul>
       </div>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti fuga, ipsa quis numquam animi explicabo praesentium minus voluptas. Ipsa, ratione! Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro numquam voluptatibus quas.</p>
-      <a href="#">Learn More<i class="fas fa-long-arrow-alt-right"></i></a>
-  </div>
+    </article>
+    <!-- ------------------------------------------------- -->
+    <article class="docs-content" id="usingData" data-link-content>
+      <div class="docs-content-title">
+        <h3>Using Data</h3>
+      </div>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum quidem qui voluptatem magnam pariatur, in quis fugiat architecto earum asperiores. Illum dolorum ullam porro harum deleniti laboriosam dicta officiis, rerum magnam, tenetur, consequuntur cupiditate deserunt labore facere? Voluptate corrupti harum ipsum molestias enim officiis voluptates? Dolorem illo suscipit fugiat ipsum!</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis laudantium assumenda ratione libero veritatis nisi soluta culpa expedita, quia officia earum, reprehenderit quae quam ex?</p>
+      
+      <div class="docs-content-list">
+        <h4>More Resources</h4>
+        <ul><li><a href="#">Contact Support Team</a></li></ul>
+        <ul><li><a href="#">Downloads</a></li></ul>
+        <ul><li><a href="#">Tutorial Series</a></li></ul>
+        <ul><li><a href="#">Common Issues</a></li></ul>
+      </div>
+    </article>
+
+    <!-- -------------------------------------------- -->
+    <article class="docs-content" id="templates" data-link-content>
+      <div class="docs-content-title">
+        <h3>Templates</h3>
+      </div>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum quidem qui voluptatem magnam pariatur, in quis fugiat architecto earum asperiores. Illum dolorum ullam porro harum deleniti laboriosam dicta officiis, rerum magnam, tenetur, consequuntur cupiditate deserunt labore facere? Voluptate corrupti harum ipsum molestias enim officiis voluptates? Dolorem illo suscipit fugiat ipsum!</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis laudantium assumenda ratione libero veritatis nisi soluta culpa expedita, quia officia earum, reprehenderit quae quam ex?</p>
+
+      <div class="docs-content-list">
+        <h4>More Resources</h4>
+        <ul><li><a href="#">Contact Support Team</a></li></ul>
+        <ul><li><a href="#">Downloads</a></li></ul>
+        <ul><li><a href="#">Tutorial Series</a></li></ul>
+        <ul><li><a href="#">Common Issues</a></li></ul>
+      </div>
+    </article>
+    
+    <!-- --------------------------------------------- -->
+    <article class="docs-content" id="troubleshooting" data-link-content>
+      <div class="docs-content-title">
+        <h3>Troubleshooting</h3>
+      </div>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum quidem qui voluptatem magnam pariatur, in quis fugiat architecto earum asperiores. Illum dolorum ullam porro harum deleniti laboriosam dicta officiis, rerum magnam, tenetur, consequuntur cupiditate deserunt labore facere? Voluptate corrupti harum ipsum molestias enim officiis voluptates? Dolorem illo suscipit fugiat ipsum!</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis laudantium assumenda ratione libero veritatis nisi soluta culpa expedita, quia officia earum, reprehenderit quae quam ex?</p>
+
+      <div class="docs-content-list">
+        <h4>More Resources</h4>
+        <ul><li><a href="#">Contact Support Team</a></li></ul>
+        <ul><li><a href="#">Downloads</a></li></ul>
+        <ul><li><a href="#">Tutorial Series</a></li></ul>
+        <ul><li><a href="#">Common Issues</a></li></ul>
+      </div>
+    </article>
+    <!-- ----------------------------------------------------------------- -->
+
+  </section>
   </div>
 </div>
 
