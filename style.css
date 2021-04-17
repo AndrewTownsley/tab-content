@@ -306,7 +306,6 @@ i {
 .docs-container {
   width: 100%;
   display: inline-flex;
-  grid-template-columns: repeat (2, 1fr 3fr);
 }
 /* -------------------------docs-menu */
 .docs-menu {
@@ -353,7 +352,7 @@ i {
   margin-left: 2rem;
 }
 
-.docs-content.active {
+.docs-content.show-content {
   display: block;
 }
 
